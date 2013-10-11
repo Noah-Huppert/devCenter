@@ -1,0 +1,66 @@
+body{
+	background: #FCFCFC;
+}
+#loginBox{
+	width: 300px;
+	height: 250px;
+	margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B8B8B8;
+	border-radius: 8px;
+}
+#loginBoxHeader{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	background: #247FFF;
+	color: #FFFFFF;
+	border-radius: 8px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#loginForm{
+	width: 175px;
+	height: 200px;
+	margin: auto;
+	margin-top: -10px;
+}
+#loginHint{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	color: #FF0000;
+	font-weight: bold;
+}
+.loginLabel{
+	margin-top: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.loginInput{
+	width: 170px;
+	height: 18px;
+	font-style: italic;
+	outline: 0;
+}
+#loginSubmitButton{
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 60px;
+	background: #247FFF;
+	border-style: solid;
+	border-wdith: 1px;
+	border-color: #4592FF;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}

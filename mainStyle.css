@@ -1,0 +1,363 @@
+body {
+	margin: 0;
+}
+/*Everywhere | Essentaily the body tag*/
+#contentArea{
+	padding-top: 40px;
+}
+/*************************/
+
+/*Homepage | Project Listing*/
+#homePageTitle{
+	width: 500px;
+	margin: auto;
+	margin-top: 10%;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: #CCCCCC;
+	font-size: 36px;
+}
+#userProjects{
+	width: 500px;
+	margin: auto;
+	margin-top: 40px;
+}
+.projectItem{
+	height: 60px;
+	line-height: 60px;
+	margin-top: 10px;
+	background: #FCFCFC;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #EBEBEB;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color: #2489ce;
+}
+/*************************/
+
+/*Project Viewing | Project Home*/
+.projectTitle{
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: #CCCCCC;
+	font-size: 36px;
+}
+.projectDescription{
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+/*************************/
+
+/*Project Viewing | Project Home | Project Object Tabs*/
+#projectObjects{
+	width: 700px;
+	margin: auto;
+	margin-top: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #B0B0B0;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+#projectObjectTabs{
+	width: 700px;
+	height: 40px;
+}
+.projectObjectTab{
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bolder;
+	cursor: pointer;
+}
+#projectTasksTab{
+	width: 349px;
+	float: left;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #B0B0B0;
+	box-shadow: 3px 0px 10px #B0B0B0;
+	color: #21A600;
+}
+#projectIssuesTab{
+	float: right;
+	color: #EB3434;
+	//box-shadow: -3px 0px 10px #B0B0B0;
+}
+/*************************/
+
+/*Project Viewing | Project Home*/
+.projectTasks{
+	width: 700px;
+	margin: auto;
+}
+.taskListItem{
+	width: 650px;
+	height: 50px;
+	margin: auto;
+	margin-top: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #8A8A8A;
+	border-radius: 7px;
+	background: #F5F5F5;
+	font-size: 11px;
+	color: #ABABAB;
+	font-style: italic;
+	text-decoration: none;
+	cursor: pointer;
+}
+.taskListItemTitle{
+	margin-left: 30px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #545454;
+}
+.taskListItemTag{
+	margin-left: 20px;
+	float: left;
+}
+.taskListItemLevel{
+	margin-left: 10px;
+	float: left;
+}
+.taskListItemDev{
+	margin-left: 10px;
+	float: left;
+}
+.taskListRightContainer{
+	width: 150px;
+	//margin-top: -15px;
+	float: right;
+	font-size: 14px;
+	color: #545454;
+	font-style: normal;
+}
+.taskListItemStatus{
+	margin-right: 45px; 
+	float: right;
+}
+.taskListItemUser{
+	margin-top: -20px;
+	margin-right: 25px; 
+	float: right;
+}
+/*************************/
+
+/*Project Viewing | Project Tasks*/
+.taskContainer{
+	width: 750px;
+	margin: auto;
+	padding-right: 15px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #A8A8A8;
+}
+.taskContentContainer{
+	width: 600px;
+	height: 400px;
+	//min-height: 400px;
+	//margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A8A8A8;
+	border-radius: 3px;
+}
+.taskTitle{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 800;
+	color: #5C5C5C;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #D1D1D1;
+}
+.taskContent{
+	width: 550px;
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%;
+	word-wrap: break-word;
+	outline: none;
+	border-style: none;
+}
+.taskMeta{
+	margin-top: -375px;
+	float: right;
+}
+.metaTitle{
+	color: #A8A8A8;
+	font-style: italic;
+} 
+.status{
+	width: 75px;
+	height: 35px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	line-height: 35px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 2px;
+	background: #15FF00;
+}
+.statusOptions{
+	width: 140px;
+	height: 80px;
+	margin-right: -5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 2px;
+}
+.statusOptions span{
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #969696;
+}
+
+.statusOption{
+	width: 100px;
+	height: 16px;
+	margin: auto;
+	margin-bottom: 1px;
+	line-height: 16px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 0px;
+	background: #15FF00;
+}
+#statusOptionComplete{
+	background: #00FF00;
+}
+#statusOptionPending{
+	background: #FFDE24;
+}
+#statusOptionClosed{
+	background: #FF0000;
+}
+.tag{
+	
+}
+.tagOptions{
+	width: 140px;
+	height: 80px;
+	margin-right: -5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 2px;
+}
+.tagOptions span{
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #969696;
+}
+.tagOption{
+	width: 100px;
+	height: 16px;
+	margin: auto;
+	margin-bottom: 1px;
+	line-height: 16px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 0px;
+}
+.level{
+	
+}
+.levelOptions{
+	width: 140px;
+	height: 100px;
+	margin-right: -5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 2px;
+}
+.levelOptions span{
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #969696;
+}
+.levelOption{
+	width: 100px;
+	height: 16px;
+	margin: auto;
+	margin-bottom: 1px;
+	line-height: 16px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 0px;
+}
+.dev{
+	
+}
+#changeDevButton{
+	width: 105px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #969696;
+	border-radius: 2px;
+}
+/*************************/
+
+/*Project Viewing | Project New Task*/
+#createTaskButton{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin: auto;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A8A8A8;
+	border-radius: 2px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	color: #858585;
+}
+/*************************/
